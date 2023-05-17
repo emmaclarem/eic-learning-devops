@@ -29,6 +29,6 @@ jobs:
       with:
         scope: resourcegroup
         resourceGroupName: "emmam-eic-devops-github"
-        template: "../ARM-Templates/container-webapp-template.json"
+        template: "./container-webapp-template.json"
         deploymentMode: Incremental
         
